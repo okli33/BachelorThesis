@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="start time" type="D" value="44098.6710860532"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="end time" type="D" value="44098.671189838"/>
+				<Prp name="name" type="S" value="ProjectTestItem2 [KeywordTests - signInSuccess]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{3FCD4CD9-BCE2-4361-AF87-B087917F28AC}"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="start time" type="D" value="44098.6715531829"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="end time" type="D" value="44098.6715531829"/>
+				<Prp name="name" type="S" value="The execution process was interrupted."/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value=""/>
+			</Node>
+			<Node name="row3">
+				<Prp name="start time" type="D" value="44098.6714833796"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="end time" type="D" value="44098.6715531829"/>
+				<Prp name="name" type="S" value="ProjectTestItem4 [KeywordTests - signInFailureUsername]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{CAD867B0-6632-428D-961E-161A8DB4F5B5}"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="start time" type="D" value="44098.6709500579"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44098.6710859722"/>
+				<Prp name="name" type="S" value="ProjectTestItem1 [KeywordTests - createUserFailure]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{1118D6A8-8B14-45E8-8E8F-B83FA81D08F7}"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="start time" type="D" value="44098.671189838"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="end time" type="D" value="44098.6714832639"/>
+				<Prp name="name" type="S" value="ProjectTestItem3 [KeywordTests - signInFailurePassword]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{4F15092E-3C7F-4F97-96BB-24EDBABAD8CB}"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

@@ -1,0 +1,1553 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PerformanceRating</name>
+    </assembly>
+    <members>
+        <member name="T:PerformanceRating.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.PerformanceRatingRepository">
+            <summary>
+            The class representing the PerformanceRatingRepository element repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.PerformanceRatingRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the PerformanceRatingRepository element repository.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepository.GoogleGoogleChrome">
+            <summary>
+            The GoogleGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepository.Google">
+            <summary>
+            The Google folder.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepository.PerformanceRating">
+            <summary>
+            The PerformanceRating folder.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepository.PerformanceRatingGoogleChrome">
+            <summary>
+            The PerformanceRatingGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.PerformanceRatingRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.PerformanceRatingRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.PerformanceRatingRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleGoogleChromeAppFolder">
+            <summary>
+            The GoogleGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GoogleGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleGoogleChromeAppFolder.AdressUndSuchleiste">
+            <summary>
+            The AdressUndSuchleiste item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleGoogleChromeAppFolder.AdressUndSuchleisteInfo">
+            <summary>
+            The AdressUndSuchleiste item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleGoogleChromeAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleGoogleChromeAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleGoogleChromeAppFolder.Pane1">
+            <summary>
+            The Pane1 item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleGoogleChromeAppFolder.Pane1Info">
+            <summary>
+            The Pane1 item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleGoogleChromeAppFolder.Grouping">
+            <summary>
+            The Grouping item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleGoogleChromeAppFolder.GroupingInfo">
+            <summary>
+            The Grouping item info.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleAppFolder">
+            <summary>
+            The GoogleAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Google  folder.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleAppFolder.N1xJcfNe6nSdO3j99">
+            <summary>
+            The N1xJcfNe6nSdO3j99 item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleAppFolder.N1xJcfNe6nSdO3j99Info">
+            <summary>
+            The N1xJcfNe6nSdO3j99 item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleAppFolder.DivTagGb">
+            <summary>
+            The DivTagGb item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.GoogleAppFolder.DivTagGbInfo">
+            <summary>
+            The DivTagGb item info.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder">
+            <summary>
+            The PerformanceRatingAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PerformanceRating  folder.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.SignIn">
+            <summary>
+            The SignIn item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.SignInInfo">
+            <summary>
+            The SignIn item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.SignIn1">
+            <summary>
+            The SignIn1 item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.SignIn1Info">
+            <summary>
+            The SignIn1 item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000Hash">
+            <summary>
+            The Http192168178589000Hash item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000HashInfo">
+            <summary>
+            The Http192168178589000Hash item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Password">
+            <summary>
+            The Password item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.PasswordInfo">
+            <summary>
+            The Password item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.BtnBtnPrimary">
+            <summary>
+            The BtnBtnPrimary item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.BtnBtnPrimaryInfo">
+            <summary>
+            The BtnBtnPrimary item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.AlertAlertSuccessFadeShow">
+            <summary>
+            The AlertAlertSuccessFadeShow item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.AlertAlertSuccessFadeShowInfo">
+            <summary>
+            The AlertAlertSuccessFadeShow item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Username">
+            <summary>
+            The Username item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.UsernameInfo">
+            <summary>
+            The Username item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Register">
+            <summary>
+            The Register item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.RegisterInfo">
+            <summary>
+            The Register item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Register1">
+            <summary>
+            The Register1 item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Register1Info">
+            <summary>
+            The Register1 item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.ToastifyToastBody">
+            <summary>
+            The ToastifyToastBody item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.ToastifyToastBodyInfo">
+            <summary>
+            The ToastifyToastBody item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Email">
+            <summary>
+            The Email item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.EmailInfo">
+            <summary>
+            The Email item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.SecondPassword">
+            <summary>
+            The SecondPassword item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.SecondPasswordInfo">
+            <summary>
+            The SecondPassword item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.SpanTagPleaseCheckYourEmailForConf">
+            <summary>
+            The SpanTagPleaseCheckYourEmailForConf item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.SpanTagPleaseCheckYourEmailForConfInfo">
+            <summary>
+            The SpanTagPleaseCheckYourEmailForConf item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Account">
+            <summary>
+            The Account item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.AccountInfo">
+            <summary>
+            The Account item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.FirstPassword">
+            <summary>
+            The FirstPassword item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.FirstPasswordInfo">
+            <summary>
+            The FirstPassword item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.RegisterSubmit">
+            <summary>
+            The RegisterSubmit item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.RegisterSubmitInfo">
+            <summary>
+            The RegisterSubmit item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.LoginItem">
+            <summary>
+            The LoginItem item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.LoginItemInfo">
+            <summary>
+            The LoginItem item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Settings">
+            <summary>
+            The Settings item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.SettingsInfo">
+            <summary>
+            The Settings item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.FirstName">
+            <summary>
+            The FirstName item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.FirstNameInfo">
+            <summary>
+            The FirstName item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.BtnBtnPrimary1">
+            <summary>
+            The BtnBtnPrimary1 item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.BtnBtnPrimary1Info">
+            <summary>
+            The BtnBtnPrimary1 item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.LastName">
+            <summary>
+            The LastName item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.LastNameInfo">
+            <summary>
+            The LastName item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000AccountSetti">
+            <summary>
+            The Http192168178589000AccountSetti item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000AccountSettiInfo">
+            <summary>
+            The Http192168178589000AccountSetti item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000AccountPassw">
+            <summary>
+            The Http192168178589000AccountPassw item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000AccountPasswInfo">
+            <summary>
+            The Http192168178589000AccountPassw item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.CurrentPassword">
+            <summary>
+            The CurrentPassword item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.CurrentPasswordInfo">
+            <summary>
+            The CurrentPassword item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.NewPassword">
+            <summary>
+            The NewPassword item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.NewPasswordInfo">
+            <summary>
+            The NewPassword item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.ConfirmPassword">
+            <summary>
+            The ConfirmPassword item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.ConfirmPasswordInfo">
+            <summary>
+            The ConfirmPassword item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.BtnBtnSuccess">
+            <summary>
+            The BtnBtnSuccess item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.BtnBtnSuccessInfo">
+            <summary>
+            The BtnBtnSuccess item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Save">
+            <summary>
+            The Save item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.SaveInfo">
+            <summary>
+            The Save item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.SomeSpanTag">
+            <summary>
+            The SomeSpanTag item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.SomeSpanTagInfo">
+            <summary>
+            The SomeSpanTag item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Password1">
+            <summary>
+            The Password1 item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Password1Info">
+            <summary>
+            The Password1 item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000Hash1">
+            <summary>
+            The Http192168178589000Hash1 item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000Hash1Info">
+            <summary>
+            The Http192168178589000Hash1 item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000AdminUserMa">
+            <summary>
+            The Http192168178589000AdminUserMa item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000AdminUserMaInfo">
+            <summary>
+            The Http192168178589000AdminUserMa item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.CreateANewUser">
+            <summary>
+            The CreateANewUser item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.CreateANewUserInfo">
+            <summary>
+            The CreateANewUser item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Login">
+            <summary>
+            The Login item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.LoginInfo">
+            <summary>
+            The Login item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.ROLEUSER">
+            <summary>
+            The ROLEUSER item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.ROLEUSERInfo">
+            <summary>
+            The ROLEUSER item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Save1">
+            <summary>
+            The Save1 item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Save1Info">
+            <summary>
+            The Save1 item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Delete">
+            <summary>
+            The Delete item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.DeleteInfo">
+            <summary>
+            The Delete item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Delete1">
+            <summary>
+            The Delete1 item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Delete1Info">
+            <summary>
+            The Delete1 item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Administration">
+            <summary>
+            The Administration item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.AdministrationInfo">
+            <summary>
+            The Administration item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.UserManagement">
+            <summary>
+            The UserManagement item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.UserManagementInfo">
+            <summary>
+            The UserManagement item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.View">
+            <summary>
+            The View item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.ViewInfo">
+            <summary>
+            The View item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Back">
+            <summary>
+            The Back item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.BackInfo">
+            <summary>
+            The Back item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Edit">
+            <summary>
+            The Edit item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.EditInfo">
+            <summary>
+            The Edit item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.BtnBtnPrimary2">
+            <summary>
+            The BtnBtnPrimary2 item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.BtnBtnPrimary2Info">
+            <summary>
+            The BtnBtnPrimary2 item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000AdminDocs">
+            <summary>
+            The Http192168178589000AdminDocs item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000AdminDocsInfo">
+            <summary>
+            The Http192168178589000AdminDocs item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Database">
+            <summary>
+            The Database item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.DatabaseInfo">
+            <summary>
+            The Database item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000H2Console">
+            <summary>
+            The Http192168178589000H2Console item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.Http192168178589000H2ConsoleInfo">
+            <summary>
+            The Http192168178589000H2Console item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingAppFolder.OperationsAccountResourceIsAuthentica">
+            <summary>
+            The OperationsAccountResourceIsAuthentica folder.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.PerformanceRatingRepositoryFolders.OperationsAccountResourceIsAuthenticaFolder">
+            <summary>
+            The OperationsAccountResourceIsAuthenticaFolder folder.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.PerformanceRatingRepositoryFolders.OperationsAccountResourceIsAuthenticaFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new OperationsAccountResourceIsAuthentica  folder.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.OperationsAccountResourceIsAuthenticaFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.OperationsAccountResourceIsAuthenticaFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.OperationsAccountResourceIsAuthenticaFolder.IsAuthenticated">
+            <summary>
+            The IsAuthenticated item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.OperationsAccountResourceIsAuthenticaFolder.IsAuthenticatedInfo">
+            <summary>
+            The IsAuthenticated item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.OperationsAccountResourceIsAuthenticaFolder.TryItOut">
+            <summary>
+            The TryItOut item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.OperationsAccountResourceIsAuthenticaFolder.TryItOutInfo">
+            <summary>
+            The TryItOut item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.OperationsAccountResourceIsAuthenticaFolder.Execute">
+            <summary>
+            The Execute item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.OperationsAccountResourceIsAuthenticaFolder.ExecuteInfo">
+            <summary>
+            The Execute item info.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingGoogleChromeAppFolder">
+            <summary>
+            The PerformanceRatingGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PerformanceRatingGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingGoogleChromeAppFolder.NeuLaden">
+            <summary>
+            The NeuLaden item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingGoogleChromeAppFolder.NeuLadenInfo">
+            <summary>
+            The NeuLaden item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingGoogleChromeAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.PerformanceRatingGoogleChromeAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.PerformanceRatingRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.PerformanceRatingRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.ExplorerAppFolder.RanorexStudio1AktivesFenster">
+            <summary>
+            The RanorexStudio1AktivesFenster item.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.PerformanceRatingRepositoryFolders.ExplorerAppFolder.RanorexStudio1AktivesFensterInfo">
+            <summary>
+            The RanorexStudio1AktivesFenster item info.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.recording">
+             <summary>
+            The recording recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.recording.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.recording.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.recording.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.recording.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.recording.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.recording.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.recording.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording1.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording10">
+             <summary>
+            The Recording10 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording10.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording10.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording10.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording10.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording10.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording10.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording10.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording11">
+             <summary>
+            The Recording11 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording11.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording11.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording11.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording11.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording11.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording11.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording11.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording12">
+             <summary>
+            The Recording12 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording12.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording12.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording12.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording12.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording12.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording12.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording12.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording13">
+             <summary>
+            The Recording13 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording13.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording13.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording13.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording13.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording13.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording13.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording13.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording14">
+             <summary>
+            The Recording14 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording14.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording14.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording14.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording14.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording14.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording14.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording14.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording15">
+             <summary>
+            The Recording15 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording15.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording15.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording15.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording15.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording15.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording15.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording15.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording2.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording3">
+             <summary>
+            The Recording3 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording3.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording3.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording3.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording3.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording3.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording3.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording3.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording4">
+             <summary>
+            The Recording4 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording4.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording4.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording4.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording4.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording4.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording4.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording4.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording5">
+             <summary>
+            The Recording5 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording5.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording5.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording5.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording5.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording5.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording5.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording5.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording6">
+             <summary>
+            The Recording6 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording6.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording6.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording6.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording6.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording6.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording6.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording6.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording7">
+             <summary>
+            The Recording7 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording7.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording7.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording7.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording7.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording7.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording7.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording7.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording8">
+             <summary>
+            The Recording8 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording8.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording8.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording8.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording8.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording8.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording8.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording8.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.Recording9">
+             <summary>
+            The Recording9 recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.Recording9.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording9.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording9.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.Recording9.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.Recording9.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.Recording9.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.Recording9.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:PerformanceRating.signInSuccess">
+             <summary>
+            The signInSuccess recording.
+             </summary>
+        </member>
+        <member name="F:PerformanceRating.signInSuccess.repo">
+            <summary>
+            Holds an instance of the PerformanceRatingRepository repository.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.signInSuccess.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.signInSuccess.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PerformanceRating.signInSuccess.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PerformanceRating.signInSuccess.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PerformanceRating.signInSuccess.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:PerformanceRating.signInSuccess.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

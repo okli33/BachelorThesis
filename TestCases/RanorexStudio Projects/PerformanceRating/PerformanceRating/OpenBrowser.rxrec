@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="91a7634f-aa4a-4383-8482-6aa48b0725c4"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="PerformanceRating">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.google.com
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="87f55565-620f-40ef-81e6-48a29944049d"
+	name="PerformanceRatingRepository"
+	relativepath="PerformanceRatingRepository.rxrep">
+		<codegen
+		classname="PerformanceRatingRepository"
+		namespace="PerformanceRating">
+		</codegen>
+		<rootfolder
+		id="4ad710aa-0bc8-49c0-a173-0c8437591ece"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

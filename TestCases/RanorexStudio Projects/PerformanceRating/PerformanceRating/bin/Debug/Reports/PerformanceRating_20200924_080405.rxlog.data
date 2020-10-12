@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="36.93s"
+		durationms="36930"
+		type="root"
+		rid="255601e82e1b29e8"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Anweder"
+		rxversion="9.3.2.0"
+		host="COMPUTER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-DE"
+		screenresolution="1920x1080"
+		timestamp="24.09.2020 08:04:05"
+		timestampiso="2020-09-24T06:04:05"
+		endtime="24.09.2020 08:04:42"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="29.51s"
+			durationms="29510"
+			type="test-suite"
+			rid="10be1c6b16aed35c"
+			totalerrorcount="1"
+			totalwarningcount="2"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="PerformanceRating"
+			headertext="PerformanceRating"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="29.47s"
+				durationms="29474"
+				type="test-case"
+				rid="ade28be5b8b5910"
+				totalerrorcount="1"
+				totalwarningcount="2"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="8631ae9a-5de3-4af5-ac37-1a28a40d4724"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="959ms"
+					durationms="959"
+					type="setup-container"
+					rid="78fcdda5e582e34"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="929ms"
+						durationms="929"
+						type="test-module"
+						rid="351cc229c2ea00"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="91a7634f-aa4a-4383-8482-6aa48b0725c4"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.083"
+							timeRelativeToTestModuleStartTime="00:00.019"
+							timeWallClock="08:04:13"
+							time="00:00.083"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://www.ranorex.com' with browser 'chrome' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\OpenBrowser.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="14.8s"
+					durationms="14801"
+					type="test-module"
+					rid="7e8bcd7b98bcdb0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="df93c080-a4ac-48db-8ec6-d90a1dfafc1c"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.014"
+						timeRelativeToTestModuleStartTime="00:00.008"
+						timeWallClock="08:04:14"
+						time="00:01.014"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site 'www.google.com' with browser 'Chrome' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\Recording1.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.144"
+						timeRelativeToTestModuleStartTime="00:00.138"
+						timeWallClock="08:04:14"
+						time="00:01.144"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'GoogleGoogleChrome.AdressUndSuchleiste' at 223;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Google - Google Chrome']/container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']//container[@accessiblerole='Grouping']/text[@accessiblename='Adress- und Suchleiste']"
+							itempath="container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']//container[@accessiblerole='Grouping']/text[@accessiblename='Adress- und Suchleiste']"
+							fullname="PerformanceRatingRepository.GoogleGoogleChrome.AdressUndSuchleiste"
+							id="c4f157f1952d421282167bac253957f6"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\Recording1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.872"
+						timeRelativeToTestModuleStartTime="00:03.867"
+						timeWallClock="08:04:18"
+						time="00:04.872"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'http://192.168.178.58:9000/' with focus on 'GoogleGoogleChrome.AdressUndSuchleiste'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Google - Google Chrome']/container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']//container[@accessiblerole='Grouping']/text[@accessiblename='Adress- und Suchleiste']"
+							itempath="container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']//container[@accessiblerole='Grouping']/text[@accessiblename='Adress- und Suchleiste']"
+							fullname="PerformanceRatingRepository.GoogleGoogleChrome.AdressUndSuchleiste"
+							id="c4f157f1952d421282167bac253957f6"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\Recording1.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.900"
+						timeRelativeToTestModuleStartTime="00:04.895"
+						timeWallClock="08:04:19"
+						time="00:05.900"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Return}' with focus on 'GoogleGoogleChrome.AdressUndSuchleiste'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Google - Google Chrome']/container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']//container[@accessiblerole='Grouping']/text[@accessiblename='Adress- und Suchleiste']"
+							itempath="container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']//container[@accessiblerole='Grouping']/text[@accessiblename='Adress- und Suchleiste']"
+							fullname="PerformanceRatingRepository.GoogleGoogleChrome.AdressUndSuchleiste"
+							id="c4f157f1952d421282167bac253957f6"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\Recording1.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.240"
+						timeRelativeToTestModuleStartTime="00:05.235"
+						timeWallClock="08:04:19"
+						time="00:06.240"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PerformanceRating.Http192168178589000Hash' at 94;17.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.178.58:9000']//li[#'account-menu']/a[@href>'http://192.168.178.58:900']"
+							itempath=".//li[#'account-menu']/a[@href>'http://192.168.178.58:900']"
+							fullname="PerformanceRatingRepository.PerformanceRating.Http192168178589000Hash"
+							id="4ee167e1c8194a66a6fe84ff6865f41f"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\Recording1.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.722"
+						timeRelativeToTestModuleStartTime="00:08.717"
+						timeWallClock="08:04:23"
+						time="00:09.722"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PerformanceRating.SignIn' at 19;19.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.178.58:9000']//a[#'login-item']/span[@innertext='Sign in']"
+							itempath=".//a[#'login-item']/span[@innertext='Sign in']"
+							fullname="PerformanceRatingRepository.PerformanceRating.SignIn"
+							id="ab1d6f40d69344898a42aedfe7e5baf7"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\Recording1.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.572"
+						timeRelativeToTestModuleStartTime="00:09.567"
+						timeWallClock="08:04:23"
+						time="00:10.572"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PerformanceRating.Username' at 65;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.178.58:9000']//input[#'username']"
+							itempath=".//input[#'username']"
+							fullname="PerformanceRatingRepository.PerformanceRating.Username"
+							id="613d6c0414324a119b27491480995bde"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\Recording1.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.624"
+						timeRelativeToTestModuleStartTime="00:10.619"
+						timeWallClock="08:04:24"
+						time="00:11.624"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'user' with focus on 'PerformanceRating.Username'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.178.58:9000']//input[#'username']"
+							itempath=".//input[#'username']"
+							fullname="PerformanceRatingRepository.PerformanceRating.Username"
+							id="613d6c0414324a119b27491480995bde"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\Recording1.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.136"
+						timeRelativeToTestModuleStartTime="00:11.131"
+						timeWallClock="08:04:25"
+						time="00:12.136"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PerformanceRating.Password' at 426;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.178.58:9000']//input[#'password']"
+							itempath=".//input[#'password']"
+							fullname="PerformanceRatingRepository.PerformanceRating.Password"
+							id="d57cdec97d51404793ff62aea8d4ef59"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\Recording1.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.956"
+						timeRelativeToTestModuleStartTime="00:11.951"
+						timeWallClock="08:04:26"
+						time="00:12.956"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'user' with focus on 'PerformanceRating.Password'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.178.58:9000']//input[#'password']"
+							itempath=".//input[#'password']"
+							fullname="PerformanceRatingRepository.PerformanceRating.Password"
+							id="d57cdec97d51404793ff62aea8d4ef59"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\Recording1.cs"
+							codeline="118"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.486"
+						timeRelativeToTestModuleStartTime="00:12.481"
+						timeWallClock="08:04:26"
+						time="00:13.486"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PerformanceRating.BtnBtnPrimary' at 62;5.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.178.58:9000']//div[#'login-page']/?/?/form[@action='http://192.168.178.58:9000/#']/div[3]/button[2]"
+							itempath=".//div[#'login-page']/?/?/form[@action='http://192.168.178.58:9000/#']/div[3]/button[2]"
+							fullname="PerformanceRatingRepository.PerformanceRating.BtnBtnPrimary"
+							id="f99133cbfba0405a9dc5e9a58948c1ec"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\Recording1.cs"
+							codeline="122"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.224"
+						timeRelativeToTestModuleStartTime="00:13.219"
+						timeWallClock="08:04:27"
+						time="00:14.224"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PerformanceRating.AlertAlertSuccessFadeShow' at 682;19.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.178.58:9000']//div[#'app-view-container']/div[1]/div/div/div[1]/div/div"
+							itempath=".//div[#'app-view-container']/div[1]/div/div/div[1]/div/div"
+							fullname="PerformanceRatingRepository.PerformanceRating.AlertAlertSuccessFadeShow"
+							id="6ad9825c3f4e454f8ef713356c086be4"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\Recording1.cs"
+							codeline="126"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="13.7s"
+					durationms="13703"
+					type="test-module"
+					rid="113a2cf23491840"
+					totalerrorcount="1"
+					totalwarningcount="2"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="signInSuccess"
+					displayName="signInSuccess"
+					moduleid="e0408175-0015-45fc-a634-7b8deda4c5b1"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.810"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="08:04:29"
+						time="00:15.810"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site 'www.google.com' with browser 'Chrome' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\signInSuccess.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.944"
+						timeRelativeToTestModuleStartTime="00:00.136"
+						timeWallClock="08:04:29"
+						time="00:15.944"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'GoogleGoogleChrome.AdressUndSuchleiste' at 184;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Google - Google Chrome']/container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']//container[@accessiblerole='Grouping']/text[@accessiblename='Adress- und Suchleiste']"
+							itempath="container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']//container[@accessiblerole='Grouping']/text[@accessiblename='Adress- und Suchleiste']"
+							fullname="PerformanceRatingRepository.GoogleGoogleChrome.AdressUndSuchleiste"
+							id="c4f157f1952d421282167bac253957f6"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\signInSuccess.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.323"
+						timeRelativeToTestModuleStartTime="00:01.515"
+						timeWallClock="08:04:30"
+						time="00:17.323"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left DoubleClick item 'Google.N1xJcfNe6nSdO3j99' at 323;-21.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.google.com']/body/div[1]/div[1]"
+							itempath="body/div[1]/div[1]"
+							fullname="PerformanceRatingRepository.Google.N1xJcfNe6nSdO3j99"
+							id="5292608b81a04bd2b26791ca697ac560"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\signInSuccess.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.672"
+						timeRelativeToTestModuleStartTime="00:01.864"
+						timeWallClock="08:04:30"
+						time="00:17.672"
+						level="Warn"
+						category="DoubleClick"
+						errimg="images_Performa_b6c3b6b0\Performa_2293f47c_rxlog.jpg"
+						errthumb="images_Performa_b6c3b6b0\Performa_2293f47c_rxlog_thumb.jpg">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+						</message>
+						<metainfo
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\signInSuccess.cs"
+							codeline="91"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.174"
+						timeRelativeToTestModuleStartTime="00:02.366"
+						timeWallClock="08:04:31"
+						time="00:18.174"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Google.N1xJcfNe6nSdO3j99' at 323;-21.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.google.com']/body/div[1]/div[1]"
+							itempath="body/div[1]/div[1]"
+							fullname="PerformanceRatingRepository.Google.N1xJcfNe6nSdO3j99"
+							id="5292608b81a04bd2b26791ca697ac560"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\signInSuccess.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.440"
+						timeRelativeToTestModuleStartTime="00:02.632"
+						timeWallClock="08:04:31"
+						time="00:18.440"
+						level="Warn"
+						category="Click"
+						errimg="images_Performa_b6c3b6b0\Performa_c53b6917_rxlog.jpg"
+						errthumb="images_Performa_b6c3b6b0\Performa_c53b6917_rxlog_thumb.jpg">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+						</message>
+						<metainfo
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\signInSuccess.cs"
+							codeline="95"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.856"
+						timeRelativeToTestModuleStartTime="00:03.048"
+						timeWallClock="08:04:32"
+						time="00:18.856"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{LControlKey down}v{LControlKey up}' with focus on 'GoogleGoogleChrome.AdressUndSuchleiste'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Google - Google Chrome']/container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']//container[@accessiblerole='Grouping']/text[@accessiblename='Adress- und Suchleiste']"
+							itempath="container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']//container[@accessiblerole='Grouping']/text[@accessiblename='Adress- und Suchleiste']"
+							fullname="PerformanceRatingRepository.GoogleGoogleChrome.AdressUndSuchleiste"
+							id="c4f157f1952d421282167bac253957f6"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\signInSuccess.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.179"
+						timeRelativeToTestModuleStartTime="00:03.372"
+						timeWallClock="08:04:32"
+						time="00:19.179"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Down item 'GoogleGoogleChrome.Pane' at 194;20.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Google - Google Chrome']/container[@accessiblename='Google - Google Chrome']/container[@accessiblename='']/container/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']"
+							itempath="container[@accessiblename='Google - Google Chrome']/container[@accessiblename='']/container/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']"
+							fullname="PerformanceRatingRepository.GoogleGoogleChrome.Pane"
+							id="0f28b76db83b44228cbacffc94e9d070"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\signInSuccess.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.659"
+						timeRelativeToTestModuleStartTime="00:03.851"
+						timeWallClock="08:04:32"
+						time="00:19.659"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Up item 'GoogleGoogleChrome.Pane' at 23;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Google - Google Chrome']/container[@accessiblename='Google - Google Chrome']/container[@accessiblename='']/container/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']"
+							itempath="container[@accessiblename='Google - Google Chrome']/container[@accessiblename='']/container/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']"
+							fullname="PerformanceRatingRepository.GoogleGoogleChrome.Pane"
+							id="0f28b76db83b44228cbacffc94e9d070"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\signInSuccess.cs"
+							codeline="107"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.073"
+						timeRelativeToTestModuleStartTime="00:04.266"
+						timeWallClock="08:04:33"
+						time="00:20.073"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Back}{Return}' with focus on 'GoogleGoogleChrome.AdressUndSuchleiste'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Google - Google Chrome']/container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']//container[@accessiblerole='Grouping']/text[@accessiblename='Adress- und Suchleiste']"
+							itempath="container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']//container[@accessiblerole='Grouping']/text[@accessiblename='Adress- und Suchleiste']"
+							fullname="PerformanceRatingRepository.GoogleGoogleChrome.AdressUndSuchleiste"
+							id="c4f157f1952d421282167bac253957f6"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\signInSuccess.cs"
+							codeline="112"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.402"
+						timeRelativeToTestModuleStartTime="00:04.594"
+						timeWallClock="08:04:33"
+						time="00:20.402"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PerformanceRating' at 1878;26.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.178.58:9000']"
+							itempath="/dom[@domain='192.168.178.58:9000']"
+							fullname="PerformanceRatingRepository.PerformanceRating.Self"
+							id="b9f4655256c24da293db6687b04d3df8"
+							timeout="30000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\signInSuccess.cs"
+							codeline="116"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.139"
+						timeRelativeToTestModuleStartTime="00:05.331"
+						timeWallClock="08:04:34"
+						time="00:21.139"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PerformanceRating.SignIn' at 33;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.178.58:9000']//a[#'login-item']/span[@innertext='Sign in']"
+							itempath=".//a[#'login-item']/span[@innertext='Sign in']"
+							fullname="PerformanceRatingRepository.PerformanceRating.SignIn"
+							id="ab1d6f40d69344898a42aedfe7e5baf7"
+							timeout="60000"
+							codefile="c:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\signInSuccess.cs"
+							codeline="120"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:29.510"
+						timeRelativeToTestModuleStartTime="00:13.703"
+						timeWallClock="08:04:42"
+						time="00:29.510"
+						level="Error"
+						category="Module">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

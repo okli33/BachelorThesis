@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{DB4FF544-825E-4C89-9674-9ABCB96E92F4}">
+				<TypeInfo Item0="{6FFA9264-4E13-45E4-A206-AD75F4394D11}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{090B02A3-BD15-490C-8A7E-2E68E9890888}">
+						<TypeInfo Item0="{89A20C00-10F0-43B9-AB18-5A74BB287E87}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pagePerformancerating" Key="{9556C036-5233-4144-B833-E9AF478D6A79}">
+								<Image FileName="1874479242" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{C37F04DF-07F5-4A48-A7EF-1BAB9DB8C76E}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://192.168.178.58:9000/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelAppViewContainer" Key="{8927B91F-47C3-4C25-BFFE-5A296738AB8E}" ExtendedFind="True">
+										<Image FileName="1874479242" Left="8" Top="139" Right="1928" Bottom="778" />
+										<TypeInfo Item0="{DC8EFB8B-266E-4B9B-B34E-D0EE0C5A36A2}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="app-view-container" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{5FB0A9BF-68AB-496A-8E9B-211257242A8D}">
+												<Image FileName="1874479242" Left="24" Top="155" Right="1912" Bottom="712" />
+												<TypeInfo Item0="{DC8EFB8B-266E-4B9B-B34E-D0EE0C5A36A2}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{9E5650AD-8A54-497F-A6D0-8132857F6C0D}">
+														<Image FileName="1874479242" Left="41" Top="172" Right="1895" Bottom="695" />
+														<TypeInfo Item0="{DC8EFB8B-266E-4B9B-B34E-D0EE0C5A36A2}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{B1ADE8A4-67B6-4F88-A041-ACBBE70EEE60}">
+																<Image FileName="1874479242" Left="26" Top="172" Right="1910" Bottom="695" />
+																<TypeInfo Item0="{DC8EFB8B-266E-4B9B-B34E-D0EE0C5A36A2}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{DBC4FAD9-71E1-451D-B1F8-0C98ED32D6E2}">
+																		<Image FileName="1874479242" Left="26" Top="172" Right="1439" Bottom="695" />
+																		<TypeInfo Item0="{DC8EFB8B-266E-4B9B-B34E-D0EE0C5A36A2}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{444ACE87-A356-4BA8-AC53-54691DCB4464}">
+																				<Image FileName="1874479242" Left="41" Top="264" Right="1424" Bottom="314" />
+																				<TypeInfo Item0="{DC8EFB8B-266E-4B9B-B34E-D0EE0C5A36A2}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panel" Key="{769947E7-5A4E-4D25-9CDD-EBE10D3DD490}">
+																						<Image FileName="1874479242" Left="41" Top="264" Right="1424" Bottom="314" />
+																						<TypeInfo Item0="{0E6DB29F-F934-485F-B6BC-643D1C78C626}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																							<Property Name="contentText">
+																								<Value Value="You are logged in as user &quot;user&quot;." />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelRoot" Key="{849E44F2-37FB-4BF9-A1D2-5BE25FC194D9}">
+										<Image FileName="-524643083" Left="0" Top="71" Right="1920" Bottom="770" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="root" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{9D2F7CF8-820C-4282-AB32-0C78EA668DE9}">
+												<Image FileName="-524643083" Left="0" Top="71" Right="1920" Bottom="770" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{DFD21EE0-5DAA-49C8-A3E2-36EBF9321428}">
+														<Image FileName="-524643083" Left="0" Top="71" Right="1920" Bottom="770" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelAppHeader" Key="{1E37DD6E-B731-4D2B-B220-B838FA6DA732}">
+																<Image FileName="-524643083" Left="0" Top="131" Right="1920" Bottom="131" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="idStr">
+																		<Value Value="app-header" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="navbarPerformanceratingdev" Key="{681F371C-912E-4F17-AC93-47CF719FE521}">
+																		<Image FileName="-524643083" Left="0" Top="71" Right="1920" Bottom="133" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Nav" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="textnode" Key="{F9C8D1EC-BC8C-42D0-AD79-B8A0CD4F2835}" ExtendedFind="True">
+																				<Image FileName="-22616952" Left="1785" Top="138" Right="1833" Bottom="159" />
+																				<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="TextNode" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value Value="Sign in" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="linkLoginItem" Key="{79A760D2-0E25-44BC-90F2-B73EDB08BD19}" ExtendedFind="True">
+																				<Image FileName="-22616952" Left="1737" Top="133" Right="1895" Bottom="165" />
+																				<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Link" />
+																					</Property>
+																					<Property Name="idStr">
+																						<Value Value="login-item" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="textnode2" Key="{BE80B80F-6899-44D0-944D-E8486FDC5F6A}" ExtendedFind="True">
+																				<Image FileName="1151815040" Left="1785" Top="170" Right="1842" Bottom="191" />
+																				<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="TextNode" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value Value="Register" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="panel" Key="{00099D66-5344-4476-87F5-EB92BB945336}">
+																				<Image FileName="-524643083" Left="389" Top="74" Right="1904" Bottom="130" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panel" Key="{0278A4C6-D504-4454-935C-29A6C396BCDC}" ExtendedFind="True">
+																						<Image FileName="-22616952" Left="1736" Top="124" Right="1896" Bottom="206" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="link" Key="{A76AB0F4-5418-47A5-B80F-92FEE2D64B2A}" ExtendedFind="True">
+																								<Image FileName="-738972767" Left="1737" Top="165" Right="1895" Bottom="197" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Link" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="0" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="textnode" Key="{1159FAFE-16AA-43DC-BBD5-0738D433DBDC}" ExtendedFind="True">
+																										<Image FileName="-738972767" Left="1785" Top="170" Right="1851" Bottom="191" />
+																										<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="TextNode" />
+																											</Property>
+																											<Property Name="contentText">
+																												<Value Value="Password" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																									<Child Name="textnode2" Key="{6123FC0C-AA37-4423-B6E0-D206C2DD291F}" ExtendedFind="True">
+																										<Image FileName="-1494508700" Left="1597" Top="138" Right="1727" Bottom="159" />
+																										<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="TextNode" />
+																											</Property>
+																											<Property Name="contentText">
+																												<Value Value="User management" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																							<Child Name="textnode" Key="{56088951-2CF5-4563-ACF9-A1F39550431E}" ExtendedFind="True">
+																								<Image FileName="-738972767" Left="1785" Top="170" Right="1851" Bottom="191" />
+																								<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="TextNode" />
+																									</Property>
+																									<Property Name="contentText">
+																										<Value Value="Password" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="textnode2" Key="{DC86515B-45DB-409B-A74E-D46C5EA9D970}" ExtendedFind="True">
+																								<Image FileName="362055199" Left="1785" Top="138" Right="1833" Bottom="159" />
+																								<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="TextNode" />
+																									</Property>
+																									<Property Name="contentText">
+																										<Value Value="Sign in" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="link2" Key="{01A9853C-30B8-402B-924B-1FEF8DFC32A4}" ExtendedFind="True">
+																								<Image FileName="1865303346" Left="1548" Top="325" Right="1766" Bottom="357" />
+																								<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Link" />
+																									</Property>
+																									<Property Name="contentText">
+																										<Value Value="API" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="textnode3" Key="{1EEAAC6B-7613-4124-98C2-4994EAE90E85}" ExtendedFind="True">
+																								<Image FileName="1124356247" Left="1597" Top="362" Right="1663" Bottom="383" />
+																								<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="TextNode" />
+																									</Property>
+																									<Property Name="contentText">
+																										<Value Value="Database" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="textboxUsername" Key="{52977EEE-F231-4907-A603-BBC3F1B2B583}" ExtendedFind="True">
+																<Image FileName="-2009867997" Left="347" Top="252" Right="1573" Bottom="290" />
+																<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Textbox" />
+																	</Property>
+																	<Property Name="idStr">
+																		<Value Value="username" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="emailinputEmail" Key="{2B99B636-FABD-4582-974B-FE88D31501F5}" ExtendedFind="True">
+																<Image FileName="1449381739" Left="347" Top="338" Right="1573" Bottom="376" />
+																<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="EmailInput" />
+																	</Property>
+																	<Property Name="idStr">
+																		<Value Value="email" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="passwordboxNewPassword" Key="{E36C1714-2945-48BA-8AD5-35E5F7EDEBD9}" ExtendedFind="True">
+																<Image FileName="-1157153192" Left="347" Top="424" Right="1573" Bottom="462" />
+																<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="PasswordBox" />
+																	</Property>
+																	<Property Name="idStr">
+																		<Value Value="firstPassword" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="passwordboxNewPasswordConfirmati" Key="{ED944394-8C87-46D3-B7F7-BEEEABFE9505}" ExtendedFind="True">
+																<Image FileName="-2066026155" Left="347" Top="574" Right="1573" Bottom="612" />
+																<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="PasswordBox" />
+																	</Property>
+																	<Property Name="idStr">
+																		<Value Value="secondPassword" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="panelAppViewContainer" Key="{87D91A56-CFD6-498A-AB41-62C5A7E51061}" ExtendedFind="True">
+																<Image FileName="-2009867997" Left="0" Top="131" Right="1920" Bottom="903" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="idStr">
+																		<Value Value="app-view-container" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="textnode" Key="{62BD5535-F25D-47C2-85F1-4DF9591FC41B}" ExtendedFind="True">
+																		<Image FileName="-640308244" Left="360" Top="636" Right="417" Bottom="657" />
+																		<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="TextNode" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="Register" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="panel" Key="{C69D7968-AAEE-4D24-9658-167DBF69115C}">
+																		<Image FileName="-1291263587" Left="16" Top="147" Right="1904" Bottom="643" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="0" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{97C194D6-DF0C-4DF8-83B1-DD2234FA177B}">
+																				<Image FileName="-1291263587" Left="33" Top="164" Right="1887" Bottom="626" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panel" Key="{97508E6D-7168-44AD-87B8-7223E15A282A}">
+																						<Image FileName="-1291263587" Left="33" Top="164" Right="1887" Bottom="626" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panel" Key="{C5D31B82-C717-4945-AF23-B331DF771F06}">
+																								<Image FileName="-1553769732" Left="33" Top="164" Right="1887" Bottom="689" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panel" Key="{47FC57C1-B485-4155-9F01-2DEA8A434D6E}">
+																										<Image FileName="-1553769732" Left="33" Top="210" Right="1887" Bottom="611" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="0" Type="0" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="table" Key="{4136AE4B-EDC2-4405-A38F-3F2A9C0946C6}">
+																												<Image FileName="-1553769732" Left="33" Top="210" Right="1887" Bottom="595" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Table" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="cell" Key="{1BBF505C-C5FF-47A0-B87F-D9D8E4102AF9}">
+																														<Image FileName="-1553769732" Left="1562" Top="532" Right="1887" Bottom="595" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Cell" />
+																															</Property>
+																															<Property Name="RowIndex">
+																																<Value Value="5" Type="0" />
+																															</Property>
+																															<Property Name="ColumnIndex">
+																																<Value Value="9" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="panel" Key="{70B84725-19C8-4844-A8F0-A47B9FBD461C}">
+																																<Image FileName="-1553769732" Left="1677" Top="545" Right="1875" Bottom="576" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																														</Children>
+																													</Child>
+																													<Child Name="cell2" Key="{DF622CBB-083C-4F63-B86C-B84016D11953}">
+																														<Image FileName="1184783577" Left="1561" Top="406" Right="1887" Bottom="469" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Cell" />
+																															</Property>
+																															<Property Name="RowIndex">
+																																<Value Value="3" Type="0" />
+																															</Property>
+																															<Property Name="ColumnIndex">
+																																<Value Value="9" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="panel" Key="{A08DB81D-5D24-4E2A-9696-01239FFCB4A1}">
+																																<Image FileName="1184783577" Left="1677" Top="419" Right="1875" Bottom="450" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																														</Children>
+																													</Child>
+																													<Child Name="cell3" Key="{3D60BEF1-0217-410B-9D93-4271B6120E4A}">
+																														<Image FileName="-1392089473" Left="0" Top="71" Right="0" Bottom="71" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Cell" />
+																															</Property>
+																															<Property Name="RowIndex">
+																																<Value Value="4" Type="0" />
+																															</Property>
+																															<Property Name="ColumnIndex">
+																																<Value Value="9" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="panel" Key="{525A2CDB-F1D1-4202-AA85-1DEE1AB98EDD}">
+																																<Image FileName="-1392089473" Left="0" Top="71" Right="0" Bottom="71" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																									<Child Name="frame" Key="{1E4320AE-E144-4203-8077-18B58CF7BB75}">
+																										<Image FileName="-368878234" Left="33" Top="164" Right="1870" Bottom="964" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Frame" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panel" Key="{57B1ABC4-936B-4428-8E09-6036716F7C56}" ExtendedFind="True">
+																												<Image FileName="-368878234" Left="519" Top="383" Right="1647" Bottom="398" />
+																												<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																													<Property Name="contentText">
+																														<Value Value="isAuthenticated" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																											<Child Name="buttonTryItOut" Key="{8FA64C39-D2FC-418F-954A-E7611BC5F42A}" ExtendedFind="True">
+																												<Image FileName="-616406739" Left="1523" Top="420" Right="1632" Bottom="450" />
+																												<TypeInfo Item0="{045A00F8-0629-4FF0-BF1D-14CA8E7A1F5B}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Button" />
+																													</Property>
+																													<Property Name="contentText">
+																														<Value Value="Try it out" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																											<Child Name="buttonExecute" Key="{D8DC5343-758F-45E7-BC7D-52D5D4D77A3B}" ExtendedFind="True">
+																												<Image FileName="-392769512" Left="254" Top="531" Right="1632" Bottom="567" />
+																												<TypeInfo Item0="{045A00F8-0629-4FF0-BF1D-14CA8E7A1F5B}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Button" />
+																													</Property>
+																													<Property Name="contentText">
+																														<Value Value="Execute" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																							<Child Name="textnode" Key="{F68D4A52-240B-43F5-B675-9C02E201FEA0}" ExtendedFind="True">
+																								<Image FileName="1341458531" Left="64" Top="778" Right="97" Bottom="799" />
+																								<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="TextNode" />
+																									</Property>
+																									<Property Name="contentText">
+																										<Value Value="Back" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="emailinputEmail" Key="{D149C48C-2FE0-440E-B08D-CC7AB7446993}" ExtendedFind="True">
+																								<Image FileName="-1686756976" Left="347" Top="596" Right="1573" Bottom="634" />
+																								<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="EmailInput" />
+																									</Property>
+																									<Property Name="idStr">
+																										<Value Value="email" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="buttonSave" Key="{DEF756E0-33E1-4A35-BEE4-996344A43C85}" ExtendedFind="True">
+																								<Image FileName="-1726182428" Left="428" Top="918" Right="505" Bottom="956" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Button" />
+																									</Property>
+																									<Property Name="contentText">
+																										<Value Value="Save" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="vg" Key="{D67A864A-5A73-4D09-A91D-40C3CBD971E5}" ExtendedFind="True">
+																										<Image FileName="-1726182428" Left="441" Top="929" Right="455" Bottom="945" />
+																										<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="SVG" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																							<Child Name="textnode2" Key="{31FAE008-0FC7-4AC1-A186-BB8F650D7AFA}" ExtendedFind="True">
+																								<Image FileName="389843787" Left="460" Top="926" Right="493" Bottom="947" />
+																								<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="TextNode" />
+																									</Property>
+																									<Property Name="contentText">
+																										<Value Value="Save" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="panel" Key="{C56FD691-02DF-484D-AB0A-3AB769E2BFBE}" ExtendedFind="True">
+																<Image FileName="-2009867997" Left="347" Top="220" Right="1573" Bottom="290" />
+																<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value Value="Username" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="textboxUsername" Key="{D17EE190-B2DB-4407-B0F5-A028DDE3FF36}" ExtendedFind="True">
+																		<Image FileName="-2009867997" Left="347" Top="252" Right="1573" Bottom="290" />
+																		<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Textbox" />
+																			</Property>
+																			<Property Name="idStr">
+																				<Value Value="username" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="textnode" Key="{4825B59F-8B83-47E8-A93A-3A2DD881BF05}" ExtendedFind="True">
+																<Image FileName="-1291263587" Left="1748" Top="172" Right="1874" Bottom="193" />
+																<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="TextNode" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value Value="Create a new user" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pagePerformancerating2" Key="{4D85BD0F-0ADB-4907-B7AC-A4479D6C3369}">
+								<Image FileName="-524643083" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{B3EA4D00-3C3B-4303-A388-C6D6D4348CD7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://192.168.178.58:9000/login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxUsername" Key="{5F78B180-17A3-4B11-B9AF-59381D100B3C}" ExtendedFind="True">
+										<Image FileName="-993702573" Left="727" Top="211" Right="1193" Bottom="249" />
+										<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Textbox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="username" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{6A149B00-A626-4EC6-87E2-9BEFBFC5A2F0}" ExtendedFind="True">
+										<Image FileName="-2062428505" Left="727" Top="297" Right="1193" Bottom="335" />
+										<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="PasswordBox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="password" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="form" Key="{7C163E1C-3A78-4743-B203-E5FAAE89CF61}" ExtendedFind="True">
+										<Image FileName="-993702573" Left="711" Top="100" Right="1209" Bottom="622" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Form" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{DFA941EE-4D90-414B-9B3C-B9874481EB57}">
+												<Image FileName="-900452670" Left="711" Top="551" Right="1209" Bottom="622" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textnode" Key="{1C88064F-DF2A-4F73-8948-D1F6337F744F}" ExtendedFind="True">
+														<Image FileName="-900452670" Left="1132" Top="576" Right="1180" Bottom="597" />
+														<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="TextNode" />
+															</Property>
+															<Property Name="contentText">
+																<Value Value="Sign in" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="textboxLastName" Key="{B5AFD7A2-DCE7-4377-AF37-FDA9C984A92F}" ExtendedFind="True">
+														<Image FileName="1921338375" Left="347" Top="328" Right="1573" Bottom="366" />
+														<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Textbox" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="lastName" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="buttonSignIn" Key="{B772421A-FA08-4CC8-ABE7-07C0BF030276}" ExtendedFind="True">
+														<Image FileName="-900452670" Left="1119" Top="568" Right="1193" Bottom="606" />
+														<TypeInfo Item0="{045A00F8-0629-4FF0-BF1D-14CA8E7A1F5B}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="contentText">
+																<Value Value="Sign in" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="passwordboxNewPassword" Key="{05621C6C-2FCA-430E-B0B0-F8D062BE9FA5}" ExtendedFind="True">
+														<Image FileName="1190609464" Left="347" Top="328" Right="1573" Bottom="366" />
+														<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="PasswordBox" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="newPassword" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="textboxFirstName" Key="{6FC80D41-FF87-4B37-9138-87347BBFB603}" ExtendedFind="True">
+														<Image FileName="-552789086" Left="347" Top="338" Right="1573" Bottom="376" />
+														<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Textbox" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="firstName" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="panel2" Key="{F9196968-F635-426E-A763-840422948EC4}">
+												<Image FileName="-1554492288" Left="719" Top="171" Right="1217" Bottom="649" />
+												<TypeInfo Item0="{DC8EFB8B-266E-4B9B-B34E-D0EE0C5A36A2}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{89165702-FAAA-4F68-9C3C-9873301EF42F}">
+														<Image FileName="-1554492288" Left="720" Top="187" Right="1216" Bottom="473" />
+														<TypeInfo Item0="{DC8EFB8B-266E-4B9B-B34E-D0EE0C5A36A2}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{0BF58442-2CAB-4C2E-9398-2F38737AA148}">
+																<Image FileName="-1554492288" Left="720" Top="187" Right="1216" Bottom="277" />
+																<TypeInfo Item0="{DC8EFB8B-266E-4B9B-B34E-D0EE0C5A36A2}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{F3A18D7B-FCCE-48FD-A1D5-3B5173F464A6}">
+																		<Image FileName="-1554492288" Left="735" Top="187" Right="1201" Bottom="261" />
+																		<TypeInfo Item0="{0E6DB29F-F934-485F-B6BC-643D1C78C626}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="4600610069006C0065006400200074006F0020007300690067006E00200069006E0021000A0050006C006500610073006500200063006800650063006B00200079006F00750072002000630072006500640065006E007400690061006C007300200061006E0064002000740072007900200061006700610069006E002E00" Type="7" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="passwordboxPassword" Key="{7D391DB1-4D0A-47E3-9551-506F2CA4F46F}" ExtendedFind="True">
+																		<Image FileName="-503509414" Left="727" Top="297" Right="1193" Bottom="335" />
+																		<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="PasswordBox" />
+																			</Property>
+																			<Property Name="idStr">
+																				<Value Value="password" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="textboxLogin" Key="{79C1486C-B597-49BE-A9BB-60582D0E7C52}" ExtendedFind="True">
+																<Image FileName="-1284122669" Left="347" Top="252" Right="1573" Bottom="290" />
+																<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Textbox" />
+																	</Property>
+																	<Property Name="idStr">
+																		<Value Value="login" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="textboxFirstName" Key="{B39BDCF6-C458-4F56-A44B-9D6CA34ADF70}" ExtendedFind="True">
+														<Image FileName="1356740569" Left="347" Top="242" Right="1573" Bottom="280" />
+														<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Textbox" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="firstName" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="passwordboxCurrentPassword" Key="{4FA328AD-D060-4D32-8613-78FCDCEFD210}" ExtendedFind="True">
+														<Image FileName="-589590308" Left="347" Top="242" Right="1573" Bottom="280" />
+														<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="PasswordBox" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="currentPassword" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="passwordboxPassword" Key="{D154D0EF-0EEB-4716-B512-EB2A9FA166C0}" ExtendedFind="True">
+												<Image FileName="-2062428505" Left="727" Top="297" Right="1193" Bottom="335" />
+												<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="PasswordBox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="password" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textnode" Key="{DCC67787-FA73-4E9E-8098-03F7EFFF101C}" ExtendedFind="True">
+												<Image FileName="1816752006" Left="360" Top="562" Right="393" Bottom="583" />
+												<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextNode" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Save" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="emailinputEmail" Key="{6DBC481D-FEAC-4A3F-A60B-AFE09DE9F7A7}" ExtendedFind="True">
+												<Image FileName="1921338375" Left="347" Top="414" Right="1573" Bottom="452" />
+												<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="EmailInput" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="email" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="passwordboxNewPasswordConfirmati" Key="{2B9716CE-ABF1-44C2-BD4B-07483B3C4003}" ExtendedFind="True">
+												<Image FileName="-1518976730" Left="347" Top="478" Right="1573" Bottom="516" />
+												<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="PasswordBox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="confirmPassword" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxLastName" Key="{D5CE96B2-507B-4FE1-B387-072D03ADEBE8}" ExtendedFind="True">
+												<Image FileName="-1891778284" Left="347" Top="424" Right="1573" Bottom="462" />
+												<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="lastName" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="selectProfiles" Key="{6C5FFFAB-D10B-4D67-96BE-BBE11682DB1F}" ExtendedFind="True">
+												<Image FileName="-124296880" Left="347" Top="714" Right="1573" Bottom="816" />
+												<TypeInfo Item0="{71B7B57D-80A4-4D0A-AA5C-79F5ECEF49A8}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Select" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="authorities" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panel" Key="{223F2311-C4DD-4463-97F1-9361153DA8C8}">
+										<Image FileName="-2106531532" Left="0" Top="772" Right="1920" Bottom="772" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="0" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{4B8CB370-D96C-46C2-A8F5-760D37267465}">
+												<Image FileName="-2106531532" Left="0" Top="772" Right="1920" Bottom="772" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{B9799C73-0640-4458-82EF-3250583B3899}">
+														<Image FileName="-2106531532" Left="0" Top="71" Right="1920" Bottom="1040" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{9255EBB5-BBA1-401D-A0ED-AD78BB0F6D0E}">
+																<Image FileName="-1328417001" Left="0" Top="71" Right="0" Bottom="71" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{56662FA6-3F46-48DF-BA95-AAF6E492DA3D}">
+																		<Image FileName="-1328417001" Left="710" Top="99" Right="1210" Bottom="291" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{B6DD7B70-35C6-468D-A860-D19C8A9EE143}">
+																				<Image FileName="-1328417001" Left="711" Top="219" Right="1209" Bottom="290" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="2" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="buttonDelete" Key="{E03A92C4-ACE5-4C9C-A284-0E6A5487C612}">
+																						<Image FileName="-1328417001" Left="1103" Top="236" Right="1193" Bottom="274" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Button" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="textnode" Key="{F9F6D4A5-2EA9-48DC-8D3A-C120C229239F}">
+																								<Image FileName="-1328417001" Left="1134" Top="244" Right="1180" Bottom="265" />
+																								<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="TextNode" />
+																									</Property>
+																									<Property Name="contentText">
+																										<Value Value="Delete" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pagePerformancerating3" Key="{283B7E91-FC40-4E25-BD5E-113B91F0BFA1}">
+								<Image FileName="1466317545" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{B3EA4D00-3C3B-4303-A388-C6D6D4348CD7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://192.168.178.58:9000/account/register" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="BrowserWindow" Key="{D1A7BB1A-2916-4CA0-AC7B-68D3D441E578}">
+								<Image FileName="468509446" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{30D9FB24-939A-4E8C-808E-AB4FE39FEE42}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pagePerformancerating4" Key="{16C22CDF-CB50-45BC-A7EE-25E72990F4B9}">
+								<Image FileName="-110870987" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://192.168.178.58:9000/account/settings" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxFirstName" Key="{F5D4E55A-39B7-4074-AED5-B5D4ABE61BB7}" ExtendedFind="True">
+										<Image FileName="-110870987" Left="347" Top="242" Right="1573" Bottom="280" />
+										<TypeInfo Item0="{D8275C2B-BB93-4379-9624-505D86C9A57F}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Textbox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="firstName" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="buttonSave" Key="{0C4C8D3B-2EDA-421E-ACE5-28BE24F79171}" ExtendedFind="True">
+										<Image FileName="274468257" Left="347" Top="554" Right="406" Bottom="592" />
+										<TypeInfo Item0="{045A00F8-0629-4FF0-BF1D-14CA8E7A1F5B}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="Save" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="navbarPerformanceratingdev" Key="{189E7EFE-5D36-4A17-BA8A-2DD274969EFE}" ExtendedFind="True">
+										<Image FileName="161788020" Left="0" Top="71" Right="1920" Bottom="133" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Nav" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textnode" Key="{2C452EF1-1331-41CE-97A1-7D5F221DCC57}" ExtendedFind="True">
+												<Image FileName="1798137958" Left="1785" Top="138" Right="1842" Bottom="159" />
+												<TypeInfo Item0="{57F09F37-1757-45C9-9FC4-BC1B083D5F5B}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextNode" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Settings" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pagePerformancerating5" Key="{6A72E166-DDE7-4FE6-8720-65C257A03E67}">
+								<Image FileName="-1691803152" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{B3EA4D00-3C3B-4303-A388-C6D6D4348CD7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://192.168.178.58:9000/admin/user-management*" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pagePerformancerating6" Key="{AAC764A1-3CE9-4515-BEB6-A6B0B966C4E3}">
+								<Image FileName="1466317545" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{B3EA4D00-3C3B-4303-A388-C6D6D4348CD7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://192.168.178.58:9000/admin/docs" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="page192168178589000H2Console" Key="{CE7D26C9-8C2B-49D3-83F0-6FD6162B33DB}">
+								<TypeInfo Item0="{B3EA4D00-3C3B-4303-A388-C6D6D4348CD7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://192.168.178.58:9000/h2-console/" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{ED767855-D81B-49C3-BB70-91E3788CE05B}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{AA759357-C9EA-40DD-A410-A8C2C2DB7626}">
+								<Image FileName="715966982" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{6BF18268-AF09-48E6-8773-F47B5B700848}">
+										<Image FileName="715966982" Left="486" Top="0" Right="1729" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{322CE8FF-7D32-467D-B15A-4C9D818A692E}">
+												<Image FileName="715966982" Left="488" Top="0" Right="1729" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Ausgeführte Anwendungen" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{1EA3ACD1-7D1B-4AD1-B61D-AA2898DC8A1C}">
+														<Image FileName="715966982" Left="488" Top="0" Right="1729" Bottom="40" />
+														<TypeInfo Item0="{3749FED5-BEFB-41A2-8F43-8949126853B1}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Ausgeführte Anwendungen" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{090B02A3-BD15-490C-8A7E-2E68E9890888}">
+			<Child Name="pagePerformancerating" Owner="{9556C036-5233-4144-B833-E9AF478D6A79}">
+				<Child Name="panel" Owner="{769947E7-5A4E-4D25-9CDD-EBE10D3DD490}" />
+				<Child Name="navbarPerformanceratingdev" Owner="{681F371C-912E-4F17-AC93-47CF719FE521}">
+					<Child Name="textnode" Owner="{F9C8D1EC-BC8C-42D0-AD79-B8A0CD4F2835}" />
+					<Child Name="linkLoginItem" Owner="{79A760D2-0E25-44BC-90F2-B73EDB08BD19}" />
+					<Child Name="textnode2" Owner="{BE80B80F-6899-44D0-944D-E8486FDC5F6A}" />
+					<Child Name="link" Owner="{A76AB0F4-5418-47A5-B80F-92FEE2D64B2A}">
+						<Child Name="textnode" Owner="{1159FAFE-16AA-43DC-BBD5-0738D433DBDC}" />
+						<Child Name="textnode2" Owner="{6123FC0C-AA37-4423-B6E0-D206C2DD291F}" />
+					</Child>
+					<Child Name="textnode3" Owner="{56088951-2CF5-4563-ACF9-A1F39550431E}" />
+					<Child Name="textnode22" Owner="{DC86515B-45DB-409B-A74E-D46C5EA9D970}" />
+					<Child Name="link2" Owner="{01A9853C-30B8-402B-924B-1FEF8DFC32A4}" />
+					<Child Name="textnode32" Owner="{1EEAAC6B-7613-4124-98C2-4994EAE90E85}" />
+				</Child>
+				<Child Name="textboxUsername" Owner="{52977EEE-F231-4907-A603-BBC3F1B2B583}" />
+				<Child Name="emailinputEmail" Owner="{2B99B636-FABD-4582-974B-FE88D31501F5}" />
+				<Child Name="passwordboxNewPassword" Owner="{E36C1714-2945-48BA-8AD5-35E5F7EDEBD9}" />
+				<Child Name="passwordboxNewPasswordConfirmati" Owner="{ED944394-8C87-46D3-B7F7-BEEEABFE9505}" />
+				<Child Name="textnode" Owner="{62BD5535-F25D-47C2-85F1-4DF9591FC41B}" />
+				<Child Name="panel2" Owner="{C56FD691-02DF-484D-AB0A-3AB769E2BFBE}">
+					<Child Name="textboxUsername" Owner="{D17EE190-B2DB-4407-B0F5-A028DDE3FF36}" />
+				</Child>
+				<Child Name="textnode2" Owner="{4825B59F-8B83-47E8-A93A-3A2DD881BF05}" />
+				<Child Name="panel3" Owner="{70B84725-19C8-4844-A8F0-A47B9FBD461C}" />
+				<Child Name="panel4" Owner="{A08DB81D-5D24-4E2A-9696-01239FFCB4A1}" />
+				<Child Name="textnode3" Owner="{F68D4A52-240B-43F5-B675-9C02E201FEA0}" />
+				<Child Name="panel5" Owner="{525A2CDB-F1D1-4202-AA85-1DEE1AB98EDD}" />
+				<Child Name="emailinputEmail2" Owner="{D149C48C-2FE0-440E-B08D-CC7AB7446993}" />
+				<Child Name="vg" Owner="{D67A864A-5A73-4D09-A91D-40C3CBD971E5}" />
+				<Child Name="textnode22" Owner="{31FAE008-0FC7-4AC1-A186-BB8F650D7AFA}" />
+				<Child Name="frame" Owner="{1E4320AE-E144-4203-8077-18B58CF7BB75}">
+					<Child Name="panel" Owner="{57B1ABC4-936B-4428-8E09-6036716F7C56}" />
+					<Child Name="buttonTryItOut" Owner="{8FA64C39-D2FC-418F-954A-E7611BC5F42A}" />
+					<Child Name="buttonExecute" Owner="{D8DC5343-758F-45E7-BC7D-52D5D4D77A3B}" />
+				</Child>
+			</Child>
+			<Child Name="pagePerformancerating2" Owner="{4D85BD0F-0ADB-4907-B7AC-A4479D6C3369}">
+				<Child Name="textboxUsername" Owner="{5F78B180-17A3-4B11-B9AF-59381D100B3C}" />
+				<Child Name="passwordboxPassword" Owner="{6A149B00-A626-4EC6-87E2-9BEFBFC5A2F0}" />
+				<Child Name="form" Owner="{7C163E1C-3A78-4743-B203-E5FAAE89CF61}">
+					<Child Name="textnode" Owner="{1C88064F-DF2A-4F73-8948-D1F6337F744F}" />
+					<Child Name="panel" Owner="{F3A18D7B-FCCE-48FD-A1D5-3B5173F464A6}" />
+					<Child Name="passwordboxPassword" Owner="{D154D0EF-0EEB-4716-B512-EB2A9FA166C0}" />
+					<Child Name="passwordboxPassword2" Owner="{7D391DB1-4D0A-47E3-9551-506F2CA4F46F}" />
+					<Child Name="textboxFirstName" Owner="{B39BDCF6-C458-4F56-A44B-9D6CA34ADF70}" />
+					<Child Name="textnode2" Owner="{DCC67787-FA73-4E9E-8098-03F7EFFF101C}" />
+					<Child Name="textboxLastName" Owner="{B5AFD7A2-DCE7-4377-AF37-FDA9C984A92F}" />
+					<Child Name="emailinputEmail" Owner="{6DBC481D-FEAC-4A3F-A60B-AFE09DE9F7A7}" />
+					<Child Name="buttonSignIn" Owner="{B772421A-FA08-4CC8-ABE7-07C0BF030276}" />
+					<Child Name="passwordboxCurrentPassword" Owner="{4FA328AD-D060-4D32-8613-78FCDCEFD210}" />
+					<Child Name="passwordboxNewPassword" Owner="{05621C6C-2FCA-430E-B0B0-F8D062BE9FA5}" />
+					<Child Name="passwordboxNewPasswordConfirmati" Owner="{2B9716CE-ABF1-44C2-BD4B-07483B3C4003}" />
+					<Child Name="textboxLogin" Owner="{79C1486C-B597-49BE-A9BB-60582D0E7C52}" />
+					<Child Name="textboxFirstName2" Owner="{6FC80D41-FF87-4B37-9138-87347BBFB603}" />
+					<Child Name="textboxLastName2" Owner="{D5CE96B2-507B-4FE1-B387-072D03ADEBE8}" />
+					<Child Name="selectProfiles" Owner="{6C5FFFAB-D10B-4D67-96BE-BBE11682DB1F}" />
+				</Child>
+				<Child Name="textnode" Owner="{F9F6D4A5-2EA9-48DC-8D3A-C120C229239F}" />
+			</Child>
+			<Child Name="pagePerformancerating3" Owner="{283B7E91-FC40-4E25-BD5E-113B91F0BFA1}" />
+			<Child Name="BrowserWindow" Owner="{D1A7BB1A-2916-4CA0-AC7B-68D3D441E578}" />
+			<Child Name="pagePerformancerating4" Owner="{16C22CDF-CB50-45BC-A7EE-25E72990F4B9}">
+				<Child Name="textboxFirstName" Owner="{F5D4E55A-39B7-4074-AED5-B5D4ABE61BB7}" />
+				<Child Name="buttonSave" Owner="{0C4C8D3B-2EDA-421E-ACE5-28BE24F79171}" />
+				<Child Name="navbarPerformanceratingdev" Owner="{189E7EFE-5D36-4A17-BA8A-2DD274969EFE}">
+					<Child Name="textnode" Owner="{2C452EF1-1331-41CE-97A1-7D5F221DCC57}" />
+				</Child>
+			</Child>
+			<Child Name="pagePerformancerating5" Owner="{6A72E166-DDE7-4FE6-8720-65C257A03E67}" />
+			<Child Name="pagePerformancerating6" Owner="{AAC764A1-3CE9-4515-BEB6-A6B0B966C4E3}" />
+			<Child Name="page192168178589000H2Console" Owner="{CE7D26C9-8C2B-49D3-83F0-6FD6162B33DB}" />
+		</Child>
+		<Child Name="explorer" Owner="{ED767855-D81B-49C3-BB70-91E3788CE05B}">
+			<Child Name="wndShell_TrayWnd" Owner="{AA759357-C9EA-40DD-A410-A8C2C2DB7626}">
+				<Child Name="ReBarWindow32" Owner="{6BF18268-AF09-48E6-8773-F47B5B700848}">
+					<Child Name="MSTaskSwWClass" Owner="{322CE8FF-7D32-467D-B15A-4C9D818A692E}">
+						<Child Name="MSTaskListWClass" Owner="{1EA3ACD1-7D1B-4AD1-B61D-AA2898DC8A1C}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

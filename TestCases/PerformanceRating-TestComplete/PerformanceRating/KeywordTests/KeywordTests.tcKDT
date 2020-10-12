@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="createUserFailure" key="{2849A09D-3FD8-42E3-82CD-169A0D9FB5BD}" path="createUserFailure.tcKDTest" />
+		<child name="signInSuccess" key="{899E2B02-BBFF-48B8-A2B0-A516B057411E}" path="signInSuccess.tcKDTest" />
+		<child name="signInFailurePassword" key="{C9817E37-637C-4334-8938-8B063B0ADD7B}" path="signInFailurePassword.tcKDTest" />
+		<child name="signInFailureUsername" key="{94425BBB-D323-47F5-94A8-6F4B976B7392}" path="signInFailureUsername.tcKDTest" />
+		<child name="createUserSuccess" key="{1A3CBF2D-16D5-4768-B400-D0327CE1B2D0}" path="createUserSuccess.tcKDTest" />
+		<child name="createExistingUser" key="{39F168CB-6207-4130-A4B3-27F399CCAE49}" path="createExistingUser.tcKDTest" />
+		<child name="adminEditUser" key="{7B92C02E-2A3E-428B-BED7-B8EBD9670C65}" path="adminEditUser.tcKDTest" />
+		<child name="changeUsername" key="{90857075-7646-49FA-9E92-DECE344A762B}" path="changeUsername.tcKDTest" />
+		<child name="changeEmail" key="{C2DA36DD-04F1-4EB4-A67A-D3727BF54A28}" path="changeEmail.tcKDTest" />
+		<child name="changeLastname" key="{97E40D04-23E6-41F7-B104-3FC64A1083CC}" path="changeLastname.tcKDTest" />
+		<child name="changePasswordSuccess" key="{B62A1C49-EC93-41F3-9A8B-7C92C3C8D9AC}" path="changePasswordSuccess.tcKDTest" />
+		<child name="changePasswordFailure" key="{67F5F6D6-05EB-41E9-B564-77E13806B7A8}" path="changePasswordFailure.tcKDTest" />
+		<child name="adminCreateDeleteUser" key="{028DC642-08C8-49E4-9429-C569A73D7FA5}" path="adminCreateDeleteUser.tcKDTest" />
+		<child name="adminViewUser" key="{9A0E810C-9620-4BF1-94F5-A6C2AF074287}" path="adminViewUser.tcKDTest" />
+		<child name="authenticateAPI" key="{F3C73E1E-2B30-4DF9-9540-38DAA6B92104}" path="authenticateAPI.tcKDTest" />
+		<child name="openH2dbms" key="{73BFF183-0B24-4953-84E4-BE729EDD39AA}" path="openH2dbms.tcKDTest" />
+	</children>
+</Root>

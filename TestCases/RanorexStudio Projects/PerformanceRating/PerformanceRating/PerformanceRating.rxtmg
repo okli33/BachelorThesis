@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="PerformanceRating"
+      id="5b5e812b-254c-4808-be75-28ee1f73d7d4"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="PerformanceRating"
+      id="5b5e812b-254c-4808-be75-28ee1f73d7d4"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

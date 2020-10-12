@@ -1,0 +1,10 @@
+C:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\bin\Debug\PerformanceRating.rxtmg
+C:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\bin\Debug\PerformanceRating.rxtst
+C:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\bin\Debug\PerformanceRating.exe.config
+C:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\bin\Debug\PerformanceRating.xml
+C:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\bin\Debug\PerformanceRating.exe
+C:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\bin\Debug\PerformanceRating.pdb
+C:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\obj\x86\Debug\PerformanceRating.csprojResolveAssemblyReference.cache
+C:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\obj\x86\Debug\PerformanceRating.exe
+C:\Users\Anweder\Documents\Ranorex\RanorexStudio Projects\PerformanceRating\PerformanceRating\obj\x86\Debug\PerformanceRating.pdb

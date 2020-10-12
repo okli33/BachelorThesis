@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="14.0">
+	<children>
+		<child name="panel" key="{D7A6A037-B434-4051-96D4-A54E8C0B65C3}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="panel" ID="{D7A6A037-B434-4051-96D4-A54E8C0B65C3}" FileName="Regions\panel.png" Update="False" />
+		</child>
+		<child name="panel1" key="{0E59D9C0-65B3-4C2F-808F-465A7580B55B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="panel1" ID="{0E59D9C0-65B3-4C2F-808F-465A7580B55B}" FileName="Regions\panel1.png" Update="False" />
+		</child>
+		<child name="panel2" key="{CAD11149-419D-4281-AEB4-480C0C0BD412}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="panel2" ID="{CAD11149-419D-4281-AEB4-480C0C0BD412}" FileName="Regions\panel2.png" Update="False" />
+		</child>
+	</children>
+</Root>

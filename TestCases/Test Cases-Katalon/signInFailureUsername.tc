@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>signInFailureUsername</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1489afa-7138-42b7-bf24-cd7e3d5321b4</testCaseGuid>
+</TestCaseEntity>

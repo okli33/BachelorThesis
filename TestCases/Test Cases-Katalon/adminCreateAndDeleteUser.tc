@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>adminCreateAndDeleteUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2bf6d71e-7c24-4f31-9ae4-cc9ac3ad8a24</testCaseGuid>
+</TestCaseEntity>
